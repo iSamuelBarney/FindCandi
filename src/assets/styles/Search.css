@@ -1,0 +1,35 @@
+.SearchBar {
+  display: flex;
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.07);
+  border-width: 0.27rem;
+  border-radius: 7rem;
+  border-style: solid;
+  padding: 1rem;
+  min-width: 47vw;
+  max-width: 77vw;
+  align-items: center;
+}
+
+.SearchBar input {
+  flex: 1;
+  min-height: 2rem;
+  line-height: 2rem;
+  border: none;
+  font-size: 2rem;
+  padding-left: 1rem;
+  min-width: 17vw;
+  opacity: 1;
+}
+
+.App-Search-Icon {
+  max-height: 1rem;
+}
+
+.SearchBar.Match input {
+  opacity: 0.27;
+}
+
+.SearchBar.Match .App-Search-Icon {
+  max-height: 0.77rem;
+}
