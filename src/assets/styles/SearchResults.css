@@ -50,7 +50,7 @@
   text-transform: uppercase;
   font-weight: 700;
   margin: 0.7rem 0;
-  min-width: 27vw;
+  min-width: "50%";
   min-height: 0.57rem;
   text-align: right;
 }

@@ -9,7 +9,7 @@ async function getSearchQuery(searchQuery = "") {
   const defaultResponse = {};
   try {
     const getResults = await axios(
-      `https://find-candi-api.herokuapp.com//search/${searchQuery}`
+      `//find-candi-api.herokuapp.com/search/${searchQuery}`
     );
 
     return getResults?.data || {};
