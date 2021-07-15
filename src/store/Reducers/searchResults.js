@@ -15,6 +15,7 @@ function searchResults(state = initialState, action = {}) {
         ...state,
         type,
         query: data,
+        items: {},
       };
     }
     case actionTypes?.SEARCH_QUERY_RESULTS: {
